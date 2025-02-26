@@ -15,7 +15,7 @@ done
 
 if [ "${SHOW_USAGE}" = "true" ]; then
   echo "Usage: $0 [-i|--image <image-tag>]"
-  echo "    builds a docker image based on Ubuntu 18.04 for building motioneyeos"
+  echo "    builds a docker image based on Ubuntu 20.04 for building motioneyeos"
   echo "    default image name is 'motioneyeos-builder'"
   exit 1
 fi
