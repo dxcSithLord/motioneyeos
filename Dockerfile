@@ -1,4 +1,4 @@
-from ubuntu:18.04
+from ubuntu:20.04
 
 USER root
 
@@ -12,7 +12,6 @@ RUN \
       wget \
       curl \
       file \
-      python2.7-dev \
       python3-dev \
       libssl-dev \
       libncurses5-dev \
