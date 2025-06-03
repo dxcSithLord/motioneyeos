@@ -1,4 +1,4 @@
-from ubuntu:20.04
+from ubuntu:24.04
 
 USER root
 
